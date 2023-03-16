@@ -1,9 +1,11 @@
+import { defineConfig } from "vite";
 import mkcert from "vite-plugin-mkcert";
-export default {
+
+export default defineConfig({
   server: {
     port: 8888,
-    host: "local.dev",
     https: true,
+    host: "local.dev",
   },
-  Plugins: [mksert()],
-};
+  plugins: [mkcert()],
+});
