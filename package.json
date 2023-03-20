@@ -12,6 +12,7 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
+    "surge": "^0.23.1",
     "vite-plugin-mkcert": "^1.13.3"
   }
 }
