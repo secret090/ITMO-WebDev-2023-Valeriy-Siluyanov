@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && surge ./dist https://valeriysiluyanov.surge.sh/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "surge": "^0.23.1",
-    "vite-plugin-mkcert": "^1.13.3"
+    "vite-plugin-host": "^1.0.2"
   }
 }
