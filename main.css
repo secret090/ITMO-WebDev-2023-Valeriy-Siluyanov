@@ -1,0 +1,13 @@
+* {font-family: Arial, Helvetica, sans-serif; text-decoration: none;}
+
+html {background: url('https://e7.pngegg.com/pngimages/367/831/png-clipart-luxury-colorful-background-fashion-creative-background-beautiful-textured-background.png') no-repeat #a69d1f center top;}
+h2 {color:blue;}
+#header {background-color: brown;} 
+h3.style {color: yellow;}
+p.style {background-color: blue;}
+p i {color: rgb(226, 43, 83);}
+p.example, b {font-size: 30px; font-weight: 800;}
+#example:first-letter {color: red;}
+#example:first-line {color: orange;}
+.href {color: rgb(16, 35, 175);}
+.href:hover {color: rgb(112, 74, 183);}

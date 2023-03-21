@@ -3,18 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" type="text/css" href="/main.css" /> <!--Стили способ 3-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="autor" content="Valeriy Siluyanov"/>
     <meta name="description" content="Новый проект на JavaScript"/>
     <meta name="keywords" content="Js, project, JavaScript"/>
-
+    <style type="text/css"> 
+      body {
+        background-color: aquamarine;
+      }
+    </style> <!--Стили способ 2-->
     <title>Vite App</title>
   </head>
   <body>
-    <h1 style="color:red">Заголовок первого уровня</h1>
-    <p>Здесь находится текст параграфа</p>
-    <h3>Заголовок третьего уровня</h3>
-    <p>Ещё немного текста здесь!!!</p>
+    <h1 style="color:red">Заголовок первого уровня</h1> <!--Стили способ 1-->
+    <h1 id="header">Заголовок первого уровня</h1>
+    <h2>Заголовок второго уровня</h2>
+    <h3 class="style">Заголовок третьего уровня</h3>
+    <p class="style">Здесь находится <i>текст</i> параграфа</p>
+    <h3 class="style">Заголовок третьего уровня</h3>
+    <p id="example">Ещё немного текста здесь!!!<br>
+      Ещё немного текста здесь!!!</p>
+    <p class="example">Example</p>
+    <b>Example</b><br><br>
+    <a href="#" class="href" title="Проверка">Стили для ссылки</a>
+
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
