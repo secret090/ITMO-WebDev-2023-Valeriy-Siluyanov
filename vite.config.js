@@ -1,10 +1,9 @@
-import host from 'vite-plugin-host'
+//import host from 'vite-plugin-host'
 
 
 
 export default {
-  plugins: [    
-    host(),    
+  plugins: [ 
   ],
   build:{
     
